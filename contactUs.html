@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="./css/style.css">
+
+     <style>
+
+/* .container {
+  width: 100vw;
+  margin: 0 auto;
+} */
+    
+        .section-enquiry{
+            background-color: var(--white);
+            
+        }
+
+        .enquiry-heading{
+            color: var(--main-color);
+        }
+
+        .enquiry-form input ,textarea{
+            background-color: var(--para-tint);
+            box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        }
+
+        .enquiry-btn:hover,.enquiry-btn:active{
+    background-color: var(--main-color);
+    color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--main-color);
+    color: var(--white);
+    padding: 2.2rem;
+    width: 100%;
+   }
+
+   .footer-section  .logo{
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+}
+.footer-section > div > a:link,
+.footer-section > div > a:visited{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
+    transition: color 0.3s linear;
+}
+
+.footer-section >div > a:hover{
+    color: var(--secondary-color);
+}
+
+.footer-social-icons{
+  font-size: 2.2rem;
+}
+
+.footer-heading{
+  font-weight: 400;
+}
+
+@media (max-width: 75rem) {
+    footer .footer-section{
+    max-width: 133rem;
+  }
+}
+     </style>
+</head>
+<body>
+      <!-- Header Section -->
+      <header class="header">
+        <div class="logo-nav">
+            <img src="./images/logo.jpg" alt="logo" class="logo">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                Commandos Football Academy
+                </a>
+        </div>
+       
+        
+       
+        <nav class="navbar footer-list">
+            <ul class="navbar-list ">
+               <li><a href="/index.html" class="navbar-links home-link">Home</a></li>
+               <li><a href="./whyUs_page.html" class="navbar-links whyus-link">Why Us ?</a></li>
+               <li><a href="./ourTeam.html" class="navbar-links mareThanAclub-link">Our Team</a></li>
+               <li><a href="./contactUs.html" class="navbar-links conatct-link">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    <div class="mobile-navbar-btn">
+        <ion-icon name="menu" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+    </div>
+    </header>
+
+
+     <!-- Enquiry Section -->
+     <section class="section-enquiry section">
+        <div class="container grid grid-two-column">
+            <div class="section-enquiry-data">
+                <h2 class="enquiry-heading">Admission Enquiry</h2>
+                <form action="https://formspree.io/f/xbjbrooq" method="POST" class="enquiry-form">
+                <input type="text" placeholder="Name" name="username" class="enquiry-input" required autocomplete="off">
+                <input type="email" name="email" id="" placeholder="Email ID" class="enquiry-input" autocomplete="off" required>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Message" class="enquiry-textArea" autocomplete="off" required minlength="10"></textarea>
+                <button type="submit" class="enquiry-btn">Submit</button>
+            </form>
+            </div>
+            <div class="section-enquiry-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60543.202291120215!2d73.83237265878905!3d18.485917399069635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28e77f53a11f5cf1!2sCOMMANDOS%20FOOTBALL%20ACADEMY!5e0!3m2!1sen!2sin!4v1659196224177!5m2!1sen!2sin" width="600" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer  -->
+     <footer>
+        <section class="container footer-section " >
+            
+                    
+                     <h4 class="footer-heading">
+                        © 2020 Commandos Football Academy. All rights reserved
+                    </h4>
+                
+                    <div class="logo-nav">
+                        <img src="./images/logo.jpg" alt="logo" class="logo">
+                        <a href="./index.html" target="_self" rel="noopener noreferrer">
+                            Commandos Football Academy
+                            </a>
+                    </div>
+                
+                    <div class="footer-social-icons">
+                        <a href="https://www.facebook.com/Commandos-Football-Club-Pune-406988832814716"><ion-icon name="logo-facebook"  size="large" class="logo-fb" style="
+                            color: #227BE5;"></ion-icon></a>
+                        <a href="https://g.page/commandos-football-academy?share" target="_blank">
+                            <ion-icon name="logo-instagram" size="large"  style="color: var(--secondary-color);">       
+                            </ion-icon>
+                        </a>
+                           
+                            <a href="https://g.page/commandos-football-academy?share" target="_blank">  
+                                <ion-icon name="mail-open" size="large" ></ion-icon>   
+                            </a>
+                            
+                    </div>
+            
+           
+
+        </section>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

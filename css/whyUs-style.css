@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400,500;600;700;800&family=Work+Sans:wght@400;500&display=swap');
+.about-section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.about-container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 3.3rem;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+
+.social-icons a:hover{
+    transform: scale(1.5);
+}
+.content-section .social-icons ion-icon{
+    margin-top: 4rem;
+    padding: 0 1rem;
+}
+
+/* media query */
+
+@media (max-width: 48rem) {
+  
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+        
+    }
+
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    
+    .content-section .title{
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    .content-section .social-icons {
+      margin:0 auto;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+}

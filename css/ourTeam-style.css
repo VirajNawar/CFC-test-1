@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400,500;600;700;800&family=Work+Sans:wght@400;500&display=swap');
+
+:root{
+    --heading:#121212;
+    --overlay:#121212c3;
+    --para:#777;
+    --para-tint:#e4e4e4;
+    --main-color:#002642;
+    --shade-color:#4d677b;
+    --tint-color:#e6e9ec;
+    --secondary-color:#EF3E36;
+    --white:#FFFDF7;
+}
+
+.team-container{
+    text-align: center;
+    background: var(--tint-color);
+}
+
+
+.team-header{
+    padding-top: 3.2rem;
+    color: var(--main-color);
+    margin: auto;
+    line-height: 5rem;
+}
+
+.sub-container{
+    max-width: 120rem;
+    margin:auto;
+    padding: 3.2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.teams{
+    margin: 1rem;
+    padding: 2.2rem;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+.club-teams{
+    margin: 1rem;
+    padding: 2.2rem;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+
+
+.teams img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.club-teams img{
+    width: 32rem;
+    height: 20rem;
+}
+
+
+.name{
+    padding: 1.2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+
+.designation{
+    font-size: 1.3rem;
+    color: #888;
+}
+
+.team-about{
+    margin: 2rem 0;
+    color: var(--heading);
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.teams:hover{
+    background: #ffffff;
+    /* color: var(--white); */
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+.club-teams:hover{
+    background: #edf4f8;
+    /* color: var(--white); */
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+
+.social-icons{
+    margin: 1.4rem;
+}
+
+.social-icons a{
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    transition: .4s;
+    padding: 0 2.4rem;
+}
+
+.social-icons a:hover{
+    transform: scale(1.5);
+}
+
+/* media query */
+@media (max-width: 38em) {
+    .teams{
+        max-width: 100%;
+    }
+    .club-teams{
+        max-width: 100%;
+    }
+}
+
+
